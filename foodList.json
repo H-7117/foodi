@@ -1,0 +1,101 @@
+[
+    {
+        "image":"./assets/images/pngwing 3.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/burgger.png",
+        "title":"burgger",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.2
+    },
+    {
+        "image":"./assets/images/burgger.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/burgger.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/burgger.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/pngwing 3.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/pngwing 3.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/pngwing 3.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/pngwing 3.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/pngwing 3.png",
+        "title":"adfsd",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/stack.png",
+        "title":"Steak",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/cake.png",
+        "title":"Cake",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    {
+        "image":"./assets/images/pizze.png",
+        "title":"Pizza",
+        "description":"Description of the item",
+        "price":24.00,
+        "rating":4.9
+    },
+    
+    {
+        "image":"./assets/images/seafood.png",
+        "title":"seaFood",
+        "description":"Description of the item",
+        "price":45.00,
+        "rating":4.9
+    }
+]

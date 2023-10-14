@@ -76,7 +76,7 @@
                 
                 <div class="cards">
                     <aside class="image-left">
-                        <nav class="inner">
+                        <nav class="inner-head">
                             <img src="./assets/images/image 14.png" style="float: left; margin-right: 15px;border-radius: 15px; background-size: cover; background-position: center;" height="60px" width="60px">
                             <h3>Spicy noodles</h3>
                             <aside>
@@ -95,7 +95,7 @@
                         
                        
                         
-                            <nav class="inner">
+                            <nav class="inner-head">
                                 <img src="./assets/images/image 13.png" style="float: left; margin-right: 15px;border-radius: 15px; background-size: cover; background-position: center;" height="60px" width="60px">
                                 <h3>Vegetarin salad</h3>
                                 <aside>
@@ -166,45 +166,152 @@
                         <h1>Standout Dishes From Our Menu</h1>
                     </article>
                     <article class="right-text">
-                        <div class="btn-container">
-                            <button><i class="fa-solid fa-arrow-left"></i></button>
-                    <button><i class="fa-solid fa-arrow-right"></i></button>
+                        <div class="btn-container"> <!--<i class="fa-solid fa-arrow-left"></i>-->
+                            <button id="btn-back" onclick="sliderLeft()"> <i class="fa-solid fa-arrow-left"></i></button>
+                    <button id="btn-next" onclick="sliderRight()"> <i class="fa-solid fa-arrow-right"></i></button> <!---  -->
                         </div>
                     </article>
                 </header>
 
-                <div class="inner-cards">
-                    <div class="food-container">
-                       <img src="./assets/images/Fattoush salad.png" alt="" height="200px" width="200px">
+                <div class="center">
+                    <div class="wrapper">
+                      <div class="inner" >
+                        <div class="card">
+                          <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                          <article>
+                            <h5 class="title">Fattoush salad</h5>
+                            <p class="desc">Description of the item</p>
+                            <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                            </div> </section>
+                        </article>
+                        </div>
+              
+                        <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
                             <article>
-                                <h5>Fattoush salad</h5>
-                                <p>Description of the item</p>
-                                <section><div><h3>$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span>4.9</span></i>
-                                </div> </section>
-                            </article>
-                    </div>
-
-                    <div class="food-container">
-                        <img src="./assets/images/Vegetable salad.png" alt="" height="200px" width="200px">
-                             <article>
-                                 <h5>Vegetable salad</h5>
-                                 <p>Description of the item</p>
-                                 <section><div><h3>$26.00</h3></div> <div> <i class="fa-solid fa-star"> <span>4.6</span></i>
-                                 </div> </section>
-                             </article>
-                     </div>
-
-                     <div class="food-container">
-                       <img src="./assets/images/Egg salad.png" alt="" height="200px" width="200px">
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
                             <article>
-                                <h5>Egg vegi salad</h5>
-                                <p>Description of the item</p>
-                                <section><div><h3>$23.00</h3></div> <div> <i class="fa-solid fa-star"> <span>4.9</span></i>
-                                </div> </section>
-                            </article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+              
+                          <div class="card">
+                            <img class="Food-image" src="./assets/images/Fattoush salad.png" />
+                            <article>
+                              <h5 class="title">Fattoush salad</h5>
+                              <p class="desc">Description of the item</p>
+                              <section><div><h3 class="price">$24.00</h3></div> <div> <i class="fa-solid fa-star"> <span class="rate">4.9</span></i>
+                              </div> </section>
+                          </article>
+                          </div>
+                      </div>
                     </div>
+              
                     
-                </div>
+                  </div>
+
+               
             </div>
 
 
@@ -383,5 +490,101 @@
 
 
     </div>
+    <script type="module"></script>
+    <script>
+    const cardContianer = document.getElementsByClassName('inner')[0];
+    const cards = document.getElementsByClassName('card');
+    let size = cards.length;
+    let index = 0;
+    
+    const titleFood = document.getElementsByClassName('title')
+    function sliderRight() {
+      if(index > -(size - 3)*(100/size)){
+     
+        index-=100/size;
+        cardContianer.style.transform = `translateX(${index}%)`
+        console.log(index)
+      } else{
+        index = 0
+        
+      }
+     }
+
+
+     function sliderLeft(){
+      if(index<0){
+        index += 100/size;
+        cardContianer.style.transform = `translateX(${index}%)`
+
+      }else{
+        index = size.length -1
+      }
+     }
+
+
+                fetch('./foodList.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Select all the HTML elements
+                    var foodTitle = document.querySelectorAll('.title');
+                    var description = document.querySelectorAll('.desc');
+                    var Pricing = document.querySelectorAll('.price');
+                    var rating = document.querySelectorAll('.rate');
+                    var foodImage = document.querySelectorAll('.card img');
+
+
+             
+                    for (var i = 0; i < data.length; i++) {
+                    // Assign the data to the HTML elements
+                    foodTitle[i].textContent = data[i].title;
+                    description[i].textContent = data[i].description;
+                    Pricing[i].textContent = data[i].price;
+                    rating[i].textContent = data[i].rating;
+                    foodImage[i].src = data[i].image;
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        
+        // const imageContainer = document.getElementById("inner");
+        // const btnNext = document.getElementById("btn-next");
+        // const btnBack = document.getElementById("btn-back");
+      
+        // const imageCard = document.getElementsByClassName("card");
+        // const size = imageCard.length *2;
+        // let i = 0;
+        // let mov = 0;
+        // let s = 0;
+      
+        // function moveNext() {
+        //   if (i === size-1) {
+        //     mov = 0;
+        //     i = 0;
+        //   } else {
+        //     mov -= 11;
+        //     i++;
+        //     s = mov;
+        //   }
+        //   imageContainer.style.transform = `translateX(${mov}em)`;
+        //   console.log(i);
+        // }
+      
+        // function moveBack() {
+        //   if (i === 0) {
+        //     s = -(size - 1) * 11;
+        //     i = size - 1;
+        //   } else {
+        //     s += 11;
+        //     mov = s;
+        //     i--;
+        //   }
+        //   imageContainer.style.transform = `translateX(${s}em)`;
+        //   console.log(s);
+        // }
+      
+        // btnNext.addEventListener("click", moveNext);
+        // btnBack.addEventListener("click", moveBack);
+
+        
+      </script>
 </body>
 </html>
