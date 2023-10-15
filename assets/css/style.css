@@ -520,11 +520,15 @@ footer {
   font-weight: bold;
   font-size: 18px;
   color: #000000;
+ 
 }
 .fot ul li {
   font-size: 16px;
+  cursor: pointer;
 }
-
+.fot ul li:hover{
+  color: #39db4a;
+}
 .soi-btn {
   grid-column: 1;
   height: 50px;
@@ -644,4 +648,15 @@ footer {
     color: white;
     margin-top: 10px;
 font-size: 26px;
+}
+.top-chef{
+  background-color: #fbfbfb;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 0px 15px 15px 15px;
+  position: relative;
+  top: 200px;
+  right: -190px;
+  box-shadow: 1px 1px 40px rgb(219, 214, 214);
 }
